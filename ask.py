@@ -1,7 +1,9 @@
-a=['amit','aman','abishek','amar']
-b=input("enter your name: ")
-if b.lower() in a:
-  print(b,", Welcome to the party")
+invited=['amit','aman','abishek','amar']
+
+name=input("enter your name: ")
+
+if name.lower() in invited:
+  print(name,", Welcome to the party")
   print("You were invited")
   
 else:

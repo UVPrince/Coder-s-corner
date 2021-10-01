@@ -7,4 +7,4 @@ if name.lower() in invited:
   print("You were invited")
   
 else:
-  print("better luck next time")
+  print("you are not invited")

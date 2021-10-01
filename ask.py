@@ -5,4 +5,4 @@ if b.lower() in a:
   print("You were invited")
   
 else:
-  print("better luck next time")
+  print("you are not invited")
